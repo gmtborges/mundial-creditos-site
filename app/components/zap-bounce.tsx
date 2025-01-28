@@ -1,14 +1,14 @@
 import { motion } from "motion/react";
-import { MessageCircle } from "lucide-react";
 import { SiWhatsapp } from "@icons-pack/react-simple-icons";
 
 export function ZapBounce() {
   return (
-    <div className="relative flex min-h-screen items-center justify-center bg-gray-100">
-      <p>Start prompting (or editing) to see magic happen :)</p>
-
+    <div className="relative flex items-center justify-center">
       <motion.button
-        className="fixed bottom-6 right-6 flex items-center gap-2 rounded-full bg-secondary p-4 shadow-lg"
+        onClick={() => {
+          window.open("https://wa.me/5562982111127", "_blank");
+        }}
+        className="fixed bottom-6 right-6 flex items-center gap-2 rounded-full bg-green-200 p-4 shadow-lg"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         animate={{

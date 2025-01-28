@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "funcionario-publico",
+    "title": "Empréstimo consignado para funcionário público",
+    "description": "O que é?\n\nÉ um empréstimo específico para servidores públicos que atuam em Governos, Prefeituras e Autarquias. O pagamento para esta modalidade de crédito é feito diretamente na folha de pagamento destes públicos, o que evita a inadimplência.\n\nNem todas as pessoas estão aptas a contratar este tipo de empréstimo, pois ele é destinado a pessoas com renda fixa e estável, assim como outras modalidades consignáveis.\n\nGovernos:\nUm convênio composto por funcionários públicos estaduais que atuam nos órgãos administrados pelos governos dos estados. Possui todas as vantagens consignáveis exclusivas da modalidade como taxa de juros baixas e prazos mais longos.\n\nPrefeituras:\nConvênio formado por funcionários públicos municipais que atuam nos órgãos administrados pelas prefeituras das cidades. Assim como as outras modalidades, também possui todas as vantagens consignáveis.",
+    "image": "galera-firma"
+  },
+  {
+    "id": 2,
+    "name": "aposentado-inss",
+    "title": "Empréstimo consignado para aposentado do INSS",
+    "description": "O que é?\n\nO empréstimo consignado é uma modalidade restrita a um grupo específico de pessoas com renda fixa vinculada a instituições públicas e INSS. O desconto das parcelas é feito diretamente na folha de pagamento, portanto é uma das únicas opções de empréstimos que aceitam negativados sem burocracia.\n\n Além disso, existe também a margem limitada a 35% do salário líquido do beneficiário.\n\n Para quem?\n\nO público é restrito a aposentados e pensionistas do INSS. Não são elegíveis para contratar esta modalidade de crédito: trabalhadores informais, celetistas e desempregados.",
+    "image": "veia-vei"
+  },
+  {
+    "id": 3,
+    "name": "pensionista-inss",
+    "title": "Empréstimo consignado para pensionista",
+    "description": "O que é?\n\nO empréstimo consignado é uma modalidade restrita a um grupo específico de pessoas com renda fixa vinculada a instituições públicas e INSS. O desconto das parcelas é feito diretamente na folha de pagamento, portanto é uma das únicas opções de empréstimos que aceitam negativados sem burocracia.\n\n Além disso, existe também a margem limitada a 35% do salário líquido do beneficiário.\n\n Para quem?\n\nO público é restrito a aposentados e pensionistas do INSS. Não são elegíveis para contratar esta modalidade de crédito: trabalhadores informais, celetistas e desempregados.",
+    "image": "veia-zap2"
+  },
+  {
+    "id": 4,
+    "name": "quitação-recurso-proprio",
+    "title": "Quitação com recurso próprio",
+    "description": "O que é?\n\nModalidade Exclusiva para Você!\n\nEstá com margem zerada ou negativa? Não se preocupe! Essa solução única você só encontra aqui na Mundial Créditos. Fale agora com nossos especialistas e descubra como ter acesso ao crédito que precisa!",
+    "image": "dinheiro"
+  },
+  {
+    "id": 5,
+    "name": "garantia-imovel-veiculo",
+    "title": "Empréstimo com garantia de imóvel ou veículo",
+    "description": "O que é?\n\nO cliente oferece um imóvel ou veículo quitado como garantia do empréstimo.\nO bem permanece em nome do cliente, mas com alienação fiduciária até a quitação da dívida.\n\nValor do Empréstimo:\nO valor liberado é calculado com base em uma porcentagem do valor de mercado do bem (geralmente 50% a 80% no caso de imóveis e até 90% para veículos).\n\nPagamentos:\nO crédito é liberado em parcela única e o cliente faz o pagamento mensal com juros reduzidos.\n\nVantagens:\n\nJuros Menores:\nPor ser garantido por um bem, os juros são significativamente mais baixos que outras modalidades, como crédito pessoal ou consignado.\n\nPrazo Mais Longo:\nGeralmente, o prazo de pagamento é mais extenso, podendo chegar a 20 anos (para imóveis) ou até 5 anos (para veículos).\n\nValores Altos Disponíveis:\nComo o bem tem alto valor, é possível conseguir um empréstimo maior do que outras modalidades permitem.\n\nContinuidade de Uso do Bem:\nMesmo com o bem alienado, o cliente pode continuar utilizando o imóvel ou veículo normalmente.",
+    "image": "moeda-casa"
+  },
+  {
+    "id": 6,
+    "name": "cartao-credito",
+    "title": "Empréstimo com cartão de crédito",
+    "description": "O que é?\n\nTransforme Limite em Dinheiro!\n\n Aqui na Mundial Créditos, você transforma o limite do seu cartão em dinheiro rápido, fácil e com as menores taxas de juros do mercado!\n\nFale agora com nossos especialistas e conquiste o que precisa de forma prática e segura.",
+    "image": "maquina-cartao"
+  },
+  {
+    "id": 7,
+    "name": "mei",
+    "title": "Empréstimo para MEI",
+    "description": "O que é?\n\nAs Melhores Condições Estão Aqui na Mundial Créditos!\n\nVantagens Exclusivas para o Microempreendedor Individual (MEI):\n\nTaxas de Juros Reduzidas:\nCondições especiais para ajudar você a crescer sem pesar no bolso.\n\nCrédito Sem Complicação:\nProcesso rápido e simplificado, sem burocracia.\n\nPrazos Flexíveis:\nEscolha o prazo ideal para pagar no seu ritmo.\n\nSem Comprovação de Renda Alta:\nFoco no potencial do seu negócio.\n\nInvestimento na Sua Empresa:\nUse o crédito para estoque, equipamentos ou expansão.\n\nAtendimento Especializado:\nFale com especialistas que entendem as necessidades do MEI.\n\nTransforme seus planos em realidade! Fale agora com nossos especialistas na Mundial Créditos e descubra como impulsionar o seu negócio com condições imbatíveis.",
+    "image": "mei"
+  },
+  {
+    "id": 8,
+    "name": "cnpj-ltda",
+    "title": "Empréstimo para CNPJ LTDA",
+    "description": "O que é?\n\nCondições Exclusivas na Mundial Créditos!\n\nVantagens Exclusivas para Empresas LTDA:\n\nTaxas de Juros Competitivas:\nMenores custos para você investir no crescimento da sua empresa.\n\nCrédito de Alto Valor:\nFinanciamentos personalizados de acordo com as necessidades do seu negócio.\n\nPrazos Flexíveis:\nEscolha o prazo que melhor se adapta ao fluxo de caixa da sua empresa.\n\nSem Burocracia Excessiva:\nProcesso rápido e descomplicado, com análise personalizada.\n\nInvestimento Inteligente:\nUse o crédito para expansão, renovação de estoque, compra de equipamentos ou reforço de capital de giro.\n\nAtendimento Especializado:\nConsultores preparados para oferecer soluções sob medida para empresas LTDA.\n\nDê o próximo passo no crescimento do seu negócio! Fale agora com nossos especialistas na Mundial Créditos e aproveite as melhores condições do mercado.",
+    "image": "mulher-homem-papel"
+  }
+]

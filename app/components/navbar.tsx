@@ -26,17 +26,17 @@ const routeList: RouteProps[] = [
     href: "#services",
     label: "Serviços",
   },
-  {
-    href: "#testimonials",
-    label: "Depoimentos",
-  },
-  {
-    href: "#faq",
-    label: "FAQ",
-  },
+  // {
+  //   href: "#faq",
+  //   label: "FAQ",
+  // },
 ];
 
-export const Navbar = () => {
+type NavbarProps = {
+  showLinks?: boolean;
+};
+
+export const Navbar = ({ showLinks }: NavbarProps = { showLinks: false }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="sticky top-0 z-40 w-full border-b-[1px] bg-white dark:border-b-slate-700 dark:bg-background">
@@ -72,17 +72,18 @@ export const Navbar = () => {
                   <SheetDescription />{" "}
                 </SheetHeader>
                 <nav className="mt-4 flex flex-col items-center justify-center gap-2">
-                  {routeList.map(({ href, label }: RouteProps) => (
-                    <a
-                      rel="noreferrer noopener"
-                      key={label}
-                      href={href}
-                      onClick={() => setIsOpen(false)}
-                      className={buttonVariants({ variant: "ghost" })}
-                    >
-                      {label}
-                    </a>
-                  ))}
+                  {showLinks &&
+                    routeList.map(({ href, label }: RouteProps) => (
+                      <a
+                        rel="noreferrer noopener"
+                        key={label}
+                        href={href}
+                        onClick={() => setIsOpen(false)}
+                        className={buttonVariants({ variant: "ghost" })}
+                      >
+                        {label}
+                      </a>
+                    ))}
                 </nav>
               </SheetContent>
             </Sheet>
@@ -90,18 +91,19 @@ export const Navbar = () => {
 
           {/* desktop */}
           <nav className="hidden gap-2 md:flex">
-            {routeList.map((route: RouteProps, i) => (
-              <a
-                rel="noreferrer noopener"
-                href={route.href}
-                key={i}
-                className={`text-[17px] ${buttonVariants({
-                  variant: "ghost",
-                })}`}
-              >
-                {route.label}
-              </a>
-            ))}
+            {showLinks &&
+              routeList.map((route: RouteProps, i) => (
+                <a
+                  rel="noreferrer noopener"
+                  href={route.href}
+                  key={i}
+                  className={`text-[17px] ${buttonVariants({
+                    variant: "ghost",
+                  })}`}
+                >
+                  {route.label}
+                </a>
+              ))}
           </nav>
         </NavigationMenuList>
       </NavigationMenu>

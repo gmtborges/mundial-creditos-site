@@ -12,10 +12,13 @@ export const Hero = () => {
               Crédito consignado&nbsp;
             </span>{" "}
           </h1>
-          para <h2 className="inline">aposentados e servidores públicos</h2>
+          para{" "}
+          <h2 className="inline">
+            servidores públicos, aposentados e pensionistas.
+          </h2>
         </div>
 
-        <p className="mx-auto text-xl text-muted-foreground md:w-10/12 lg:mx-0">
+        <p className="mx-auto text-2xl text-muted-foreground md:w-10/12 lg:mx-0">
           As menores taxas do mercado com aprovação rápida e segura. Dinheiro na
           conta em até 24 horas!
         </p>
@@ -23,7 +26,7 @@ export const Hero = () => {
         <div className="space-y-4 md:space-x-4 md:space-y-0">
           <a
             rel="noreferrer noopener"
-            href="https://wa.me/5562996810057"
+            href="https://wa.me/5562982111127"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({ size: "lg" })}`}
           >

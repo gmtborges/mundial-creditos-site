@@ -22,7 +22,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.instagram.com/mundialcreditos_"
               className="opacity-60 hover:opacity-100"
             >
               Instagram
@@ -32,7 +32,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.facebook.com/profile.php?id=100063516580358"
               className="opacity-60 hover:opacity-100"
             >
               Facebook
@@ -41,14 +41,14 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="text-lg font-bold">Platforms</h3>
+          <h3 className="text-lg font-bold">Contato</h3>
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="tel:+5562982111127"
               className="opacity-60 hover:opacity-100"
             >
-              Web
+              62 98211-1127
             </a>
           </div>
 
@@ -58,83 +58,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Mobile
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Desktop
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="text-lg font-bold">About</h3>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Features
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Pricing
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              FAQ
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="text-lg font-bold">Community</h3>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Youtube
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Discord
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Twitch
+              contato@mundialcreditos.com.br
             </a>
           </div>
         </div>
@@ -142,14 +66,14 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
+          &#174; 2025 Mundial Créditos. Site feito por{" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
+            href="https://gbsoft.net"
             className="border-primary text-primary transition-all hover:border-b-2"
           >
-            Leo Miranda
+            GBSoft.NET
           </a>
         </h3>
       </section>
